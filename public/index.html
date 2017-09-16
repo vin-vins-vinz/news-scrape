@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Favorite News Scraper</title>
+  <!-- Linking neccessary libraries. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>News Scraper</h1>
+      <h3>Save articles to read later and make notes!</h3>
+      <hr>
+      <a href="/scrape"><button type="button" class="btn btn-danger btn-lg">Click to get the latest news!</button></a>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8">
+          <div class="panel-body" id="articles">
+              <!-- The articles scraped will display here.  -->
+          </div>
+      </div>
+
+      <div class ="col-lg-4">
+             <div class="panel-body" id="notes">
+                <!-- Notes Modal -->
+             </div>
+      </div>
+    </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
